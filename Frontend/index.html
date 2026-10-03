@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET AND POST</title>
+</head>
+<body>
+    
+    <br><br>
+<form action="http://localhost:8080/register" method="get">
+    <fieldset>
+    <legend>Form using GET</legend>
+
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <br>
+
+    <label for="mail">Email: </label>
+    <input type="text" id="mail" name="email" placeholder="Enter your mail">
+    <br><br>
+
+    <button>Submit</button>
+    </fieldset>
+</form>
+
+    <br><br>
+<form action="http://localhost:8080/register" method="post">
+    <fieldset>
+    <legend> Form using POST</legend>
+
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <br>
+
+    <label for="mail">Email: </label>
+    <input type="text" id="mail" name="email" placeholder="Enter your mail">
+    <br><br>
+
+    <button>Submit</button>
+    </fieldset>
+</form>
+
+<script src="index.js"></script>
+</body>
+</html>
